@@ -1,0 +1,8 @@
+.header__nav { display: flex; gap: 30px; }
+@media (max-width: 768px) {
+    .header__nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .header__search-wrapper { max-width: 300px; }
+}

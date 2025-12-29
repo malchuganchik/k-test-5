@@ -1,0 +1,128 @@
+/* Глобальные переменные и базовые стили */
+@import url(./styles/variables/variables.css);
+@import url(./styles/base/global.css);
+@import url(./styles/base/normalize.css);
+
+/* Шапка */
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__inner/header__inner.css);
+@import url(./blocks/header/__logo/header__logo.css);
+@import url(./blocks/header/__logo/--before/header__logo--before.css);
+@import url(./blocks/header/__nav/header__nav.css);
+@import url(./blocks/header/__nav/__link/header__nav-link.css);
+@import url(./blocks/header/__burger/header__burger.css);
+@import url(./blocks/header/__burger/__span/header__burger-span.css);
+@import url(./blocks/header/__search/header__search.css);
+@import url(./blocks/header/__search/--focus/header__search--focus.css);
+@import url(./blocks/header/__search/__btn/header__search-btn.css);
+@import url(./blocks/header/__search/__btn/--hover/header__search-btn--hover.css);
+
+/* Главный блок (hero) */
+@import url(./blocks/hero/hero.css);
+@import url(./blocks/hero/__title/hero__title.css);
+@import url(./blocks/hero/__subtitle/hero__subtitle.css);
+@import url(./blocks/hero/__actions/hero__actions.css);
+
+/* Кнопки (btn) - вынесены из hero */
+@import url(./blocks/btn/btn.css);
+@import url(./blocks/btn/--primary/btn--primary.css);
+@import url(./blocks/btn/--primary/--hover/btn--primary--hover.css);
+@import url(./blocks/btn/--secondary/btn--secondary.css);
+@import url(./blocks/btn/--secondary/--hover/btn--secondary--hover.css);
+
+/* Категории */
+@import url(./blocks/categories/categories.css);
+@import url(./blocks/categories/__grid/categories__grid.css);
+@import url(./blocks/categories/__card/categories__card.css);
+@import url(./blocks/categories/__card/__title/categories__card-title.css);
+@import url(./blocks/categories/__card/__desc/categories__card-desc.css);
+@import url(./blocks/categories/__card/__icon/categories__card-icon.css);
+@import url(./blocks/categories/__card/--hover/categories__card--hover.css);
+
+/* Преимущества */
+@import url(./blocks/advantages/advantages.css);
+@import url(./blocks/advantages/__grid/advantages__grid.css);
+@import url(./blocks/advantages/__card/advantages__card.css);
+
+/* Популярные товары */
+@import url(./blocks/products/products.css);
+@import url(./blocks/products/__title/products__title.css);
+@import url(./blocks/products/__title/--after/products__title--after.css);
+@import url(./blocks/products/__grid/products__grid.css);
+@import url(./blocks/products/__list/products__list.css);
+@import url(./blocks/products/__card/products__card.css);
+
+/* Страница товара */
+@import url(./blocks/products/__page/products__page.css);
+@import url(./blocks/products/__page/__container/products__page-container.css);
+@import url(./blocks/products/__page/__content/products__page-content.css);
+@import url(./blocks/products/__page/__header/products__page-header.css);
+@import url(./blocks/products/__page/__logo/products__page-logo.css);
+@import url(./blocks/products/__page/__nav/products__page-nav.css);
+
+/* Каталог */
+@import url(./blocks/catalog/catalog.css);
+@import url(./blocks/catalog/__title/catalog__title.css);
+@import url(./blocks/catalog/__title/--after/catalog__title--after.css);
+@import url(./blocks/catalog/__grid/catalog__grid.css);
+@import url(./blocks/catalog/__stats/catalog__stats.css);
+
+/* Фильтры */
+@import url(./blocks/filters/__title/filters__title.css);
+@import url(./blocks/filters/__title/--after/filters__title--after.css);
+@import url(./blocks/filters/__group/filters__group.css);
+@import url(./blocks/filters/__subtitle/filters__subtitle.css);
+@import url(./blocks/filters/__group/__label/filters__group-label.css);
+@import url(./blocks/filters/__group/__input/filters__group-input.css);
+@import url(./blocks/filters/__reset/filters__reset.css);
+
+/* Фермеры */
+@import url(./blocks/farmers/farmers.css);
+@import url(./blocks/farmers/__title/farmers__title.css);
+@import url(./blocks/farmers/__title/--after/farmers__title--after.css);
+@import url(./blocks/farmers/__list/farmers__list.css);
+@import url(./blocks/farmers/__card/farmers__card.css);
+@import url(./blocks/farmers/__card/__photo/farmers__card-photo.css);
+@import url(./blocks/farmers/__card/__content/farmers__card-content.css);
+@import url(./blocks/farmers/__card/__side-decor/farmers__card-side-decor.css);
+@import url(./blocks/farmers/__reviews-modal/farmers__reviews-modal.css);
+@import url(./blocks/farmers/__details-modal/farmers__details-modal.css);
+
+/* О рынке (about) */
+@import url(./blocks/about/about.css);
+@import url(./blocks/about/__hero/about__hero.css);
+@import url(./blocks/about/__title/about__title.css);
+@import url(./blocks/about/__subtitle/about__subtitle.css);
+@import url(./blocks/about/__card/about__card.css);
+@import url(./blocks/about/__section-title/about__section-title.css);
+@import url(./blocks/about/__stat/about__stat.css);
+@import url(./blocks/about/__values/about__values.css);
+
+/* Обратная связь */
+@import url(./blocks/feedback/feedback.css);
+
+/* Корзина */
+@import url(./blocks/cart/cart.css);
+@import url(./blocks/cart/__title/cart__title.css);
+@import url(./blocks/cart/__empty/cart__empty.css);
+@import url(./blocks/cart/__content/cart__content.css);
+@import url(./blocks/cart/__list/cart__list.css);
+@import url(./blocks/cart/__item/cart__item.css);
+@import url(./blocks/cart/__item/__info/cart__item-info.css);
+@import url(./blocks/cart/__item/__img/cart__item-img.css);
+@import url(./blocks/cart/__summary/cart__summary.css);
+@import url(./blocks/cart/__order/cart__order.css);
+@import url(./blocks/cart/__order/__modal/cart__order-modal.css);
+
+/* Сезонный календарь */
+@import url(./blocks/season/season__calendar.css);
+
+/* Подвал */
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/__logo/footer__logo.css);
+@import url(./blocks/footer/__logo/--before/footer__logo--before.css);
+@import url(./blocks/footer/__logo/footer__logo-p.css);
+@import url(./blocks/footer/__logo/__links/footer__links.css);
+@import url(./blocks/footer/__content/footer__content.css);
+@import url(./blocks/footer/__contact/footer__contact.css);
+@import url(./blocks/footer/__bottom/footer__bottom.css);

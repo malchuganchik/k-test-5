@@ -1,0 +1,11 @@
+.footer-contact {
+    text-align: center;
+}
+.footer-contact p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    color: #ccc;
+}
