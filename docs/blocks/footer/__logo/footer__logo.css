@@ -22,3 +22,19 @@
     margin: 0;
     font-weight: 400;
 }
+.footer-logo p {
+    font-size: 14px;
+    opacity: 0.8;
+    font-weight: normal;
+}
+
+.footer-logo:before {
+    display: none; 
+}
+
+
+.footer-logo__brand:before {
+    content: '🍃';
+    font-size: 28px;
+    margin-right: 5px;
+}

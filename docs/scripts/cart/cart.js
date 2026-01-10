@@ -60,12 +60,10 @@ document.addEventListener('DOMContentLoaded', async () => {
                 <img src="${imagePath}" alt="${item.name}" class="cart__item-img" />
                 <div class="cart__item-info">
                     <h3>${item.name}</h3>
-                    <div class="cart__item-price-row">
-                        <p>Цена: ${item.price} ₽</p>
-                        <button class="cart__item-remove" data-id="${item.id}"><i class="fas fa-times"></i></button>
-                    </div>
-                    <p>Количество: ${item.quantity}</p>
+                    <p class="cart__item-price">Цена: ${item.price} ₽</p>
+                    <p class="cart__item-quantity">Количество: ${item.quantity}</p>
                 </div>
+                <button class="cart__item-remove" data-id="${item.id}" aria-label="Удалить"><i class="fas fa-times"></i></button>
             `;
             cartList.appendChild(li);
 

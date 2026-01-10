@@ -48,6 +48,7 @@
     top: 110px;
 }
 
+
 @media (max-width: 1024px) {
     .catalog {
         grid-template-columns: 260px 1fr;
